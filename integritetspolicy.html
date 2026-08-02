@@ -10,80 +10,119 @@
     <div class="wrap">
       <a class="back" href="index.html">‹ Tillbaka</a>
       <h1>Integritetspolicy för Klirr</h1>
-      <p class="updated">Senast uppdaterad: 2026</p>
+      <p class="updated">Senast uppdaterad: 2 juli 2026</p>
 
       <p>
-        Den här policyn beskriver hur Klirr behandlar dina personuppgifter. Klirr
-        tillhandahålls av EkonomiEnkelt Norr AB, som är
-        personuppgiftsansvarig. Kontakt:
+        Den här policyn beskriver hur Klirr samlar in, använder och skyddar dina
+        personuppgifter. Klirr tillhandahålls av EkonomiEnkelt Norr AB (org.nr
+        559540-8021, Norra Villagatan 4, 672 31 Årjäng), som är
+        personuppgiftsansvarig för behandlingen. Har du frågor eller vill utöva
+        dina rättigheter når du oss på
         <a href="mailto:ekonomienkeltab@gmail.com">ekonomienkeltab@gmail.com</a>.
       </p>
 
-      <h2>Vilka uppgifter vi samlar in</h2>
+      <h2>1. Vilka uppgifter vi behandlar</h2>
+      <p><strong>Kontouppgifter:</strong></p>
       <ul>
-        <li>
-          <b>Kontouppgifter:</b> din e-postadress och ett lösenord (lagras
-          krypterat, aldrig i klartext).
-        </li>
-        <li>
-          <b>Budgetdata du själv matar in:</b> förväntad inkomst, förväntat
-          sparande, transaktioner, kategorier och tak.
-        </li>
-        <li>
-          <b>Teknisk data:</b> en inloggnings-token som håller dig inloggad, samt
-          grundläggande drift-/felsökningsinformation.
-        </li>
+        <li>Din e-postadress.</li>
+        <li>Ditt lösenord (lagras alltid krypterat/hashat, aldrig i klartext).</li>
+        <li>En inloggnings-token som håller dig inloggad på din enhet.</li>
+      </ul>
+      <p><strong>Budget- och ekonomidata:</strong></p>
+      <ul>
+        <li>Uppgifter du själv matar in: förväntad inkomst, förväntat sparande, kategorier och gränser (tak).</li>
+        <li>Transaktioner – antingen inmatade av dig eller automatiskt hämtade från din bank om du väljer att koppla den (se avsnitt 3).</li>
+      </ul>
+      <p><strong>Bankkontoinformation (om du kopplar din bank):</strong></p>
+      <ul>
+        <li>Kontoinformation och transaktionshistorik från de bankkonton du väljer att koppla (t.ex. kontonamn, delvis maskerat kontonummer/IBAN, belopp, datum, motpart och meddelande/referens).</li>
+        <li>Vi tar aldrig emot eller lagrar dina inloggningsuppgifter till banken eller ditt BankID – inloggningen sker direkt hos din bank.</li>
+        <li>Klirr har endast läsåtkomst till kontoinformation. Vi kan inte flytta pengar eller initiera betalningar.</li>
+      </ul>
+      <p><strong>Teknisk data:</strong> grundläggande drift- och felsökningsinformation som krävs för att tjänsten ska fungera (t.ex. loggar vid fel).</p>
+      <p>Vi lagrar inga kort- eller betalningsuppgifter.</p>
+
+      <h2>2. Varför vi behandlar uppgifterna och laglig grund</h2>
+      <ul>
+        <li>Tillhandahålla appen och dess funktioner – laglig grund: fullgörande av avtal.</li>
+        <li>Skapa och hantera ditt konto samt ge support – laglig grund: fullgörande av avtal och berättigat intresse.</li>
+        <li>Hämta transaktioner från din bank – laglig grund: ditt uttryckliga samtycke samt fullgörande av avtal. Behandlingen sker via en licensierad kontoinformationstjänst enligt betaltjänstlagen/PSD2.</li>
+        <li>Hantera prenumeration – laglig grund: fullgörande av avtal.</li>
+        <li>Säkerhet, drift och felsökning – laglig grund: berättigat intresse.</li>
+        <li>Uppfylla rättsliga skyldigheter (t.ex. bokföring) – laglig grund: rättslig förpliktelse.</li>
+      </ul>
+
+      <h2>3. Bankkoppling via Enable Banking</h2>
+      <p>
+        Om du väljer att koppla din bank använder vi Enable Banking som licensierad
+        leverantör av kontoinformationstjänster (AISP) för att på ett säkert sätt
+        hämta din kontoinformation. Du loggar in hos din egen bank med BankID och
+        väljer själv vilka konton du delar.
+      </p>
+      <ul>
+        <li>Åtkomsten bygger på ditt uttryckliga samtycke och gäller under en begränsad period (upp till 90 dagar), varefter du behöver förnya den.</li>
+        <li>Du kan när som helst koppla bort banken i appen (Transaktioner → Konton → Koppla bort) eller återkalla samtycket direkt hos din bank. När du kopplar bort tas de importerade transaktionerna bort.</li>
+        <li>Enable Banking behandlar uppgifter för vår räkning som personuppgiftsbiträde och, i förhållande till betaltjänstregelverket, som ansvarig leverantör av själva kontoinformationstjänsten.</li>
+      </ul>
+
+      <h2>4. Vilka vi delar uppgifter med</h2>
+      <p>Vi säljer aldrig dina uppgifter. Vi delar dem endast med leverantörer som hjälper oss att driva tjänsten:</p>
+      <ul>
+        <li><strong>Supabase</strong> – databas, konto och inloggning.</li>
+        <li><strong>Enable Banking</strong> – säker hämtning av kontoinformation från din bank.</li>
+        <li><strong>RevenueCat</strong> – hantering av prenumerationsstatus.</li>
+        <li><strong>Apple App Store</strong> – betalning och köp av prenumeration.</li>
+      </ul>
+      <p>Vi kan också lämna ut uppgifter om det krävs enligt lag eller myndighetsbeslut.</p>
+
+      <h2>5. Var uppgifterna lagras och överföringar</h2>
+      <p>
+        Uppgifterna lagras hos våra leverantörer, i första hand inom EU/EES. Om någon
+        leverantör behandlar uppgifter utanför EU/EES sker det med lämpliga
+        skyddsåtgärder enligt GDPR (t.ex. EU-kommissionens standardavtalsklausuler).
+      </p>
+
+      <h2>6. Hur länge vi sparar uppgifterna</h2>
+      <ul>
+        <li>Konto- och budgetdata sparas så länge du har ett konto.</li>
+        <li>När du raderar ditt konto (Inställningar → Profil → Radera konto) tas dina uppgifter bort permanent, med undantag för sådant vi enligt lag måste behålla (t.ex. bokföringsunderlag).</li>
+        <li>Kopplar du bort din bank tas importerade banktransaktioner bort.</li>
+      </ul>
+
+      <h2>7. Säkerhet</h2>
+      <p>
+        Vi använder tekniska och organisatoriska åtgärder för att skydda dina
+        uppgifter, bland annat krypterade anslutningar, hashade lösenord och
+        åtkomstkontroller så att du bara kommer åt din egen data. Ingen överföring
+        eller lagring är helt riskfri, men vi arbetar för att hålla en hög
+        skyddsnivå.
+      </p>
+
+      <h2>8. Automatiserat beslutsfattande</h2>
+      <p>Vi använder inte dina uppgifter för automatiserat beslutsfattande eller profilering med rättsliga följder.</p>
+
+      <h2>9. Barn</h2>
+      <p>Klirr riktar sig inte till barn och är inte avsedd att användas av personer under 18 år.</p>
+
+      <h2>10. Dina rättigheter</h2>
+      <p>Enligt GDPR har du rätt att:</p>
+      <ul>
+        <li>få tillgång till de uppgifter vi har om dig,</li>
+        <li>få felaktiga uppgifter rättade,</li>
+        <li>få dina uppgifter raderade,</li>
+        <li>invända mot eller begära begränsning av viss behandling,</li>
+        <li>få ut dina uppgifter i ett maskinläsbart format (dataportabilitet),</li>
+        <li>återkalla samtycke, t.ex. för bankkopplingen, när som helst.</li>
       </ul>
       <p>
-        Vi samlar inte in dina bankuppgifter, och vi lagrar inga kort- eller
-        betalningsuppgifter.
-      </p>
-
-      <h2>Varför vi behandlar uppgifterna</h2>
-      <ul>
-        <li>För att tillhandahålla tjänsten – laglig grund: fullgörande av avtal.</li>
-        <li>
-          För att hantera ditt konto och support – laglig grund: fullgörande av
-          avtal och berättigat intresse.
-        </li>
-        <li>För att hantera prenumeration – laglig grund: fullgörande av avtal.</li>
-      </ul>
-
-      <h2>Var uppgifterna lagras</h2>
-      <p>
-        Dina uppgifter lagras hos vår teknikleverantör Supabase (databas och
-        inloggning), som är personuppgiftsbiträde. Uppgifterna lagras inom EU/EES
-        där så är möjligt.
-      </p>
-
-      <h2>Betalning</h2>
-      <p>
-        Köp av prenumeration hanteras av Apple App Store. Vi använder RevenueCat
-        för att hålla reda på om du har en aktiv prenumeration. Vi tar aldrig emot
-        eller lagrar dina betalningsuppgifter.
-      </p>
-
-      <h2>Hur länge vi sparar uppgifterna</h2>
-      <p>
-        Vi sparar dina uppgifter så länge du har ett konto. När du raderar ditt
-        konto (Inställningar → Profil → Radera konto) tas dina uppgifter bort
-        permanent.
-      </p>
-
-      <h2>Dina rättigheter</h2>
-      <p>
-        Enligt GDPR har du rätt att få tillgång till, rätta och radera dina
-        uppgifter, invända mot eller begränsa viss behandling, samt få ut dina
-        uppgifter (dataportabilitet). Du har också rätt att klaga hos
-        Integritetsskyddsmyndigheten (IMY). Kontakta oss på
+        Kontakta oss på
         <a href="mailto:ekonomienkeltab@gmail.com">ekonomienkeltab@gmail.com</a>
-        för att utöva dina rättigheter.
+        för att utöva dina rättigheter. Du har också rätt att lämna klagomål till
+        Integritetsskyddsmyndigheten (IMY), <a href="https://www.imy.se">www.imy.se</a>.
       </p>
 
-      <h2>Ändringar</h2>
-      <p>
-        Vi kan uppdatera policyn. Vid väsentliga ändringar informerar vi i appen.
-      </p>
+      <h2>11. Ändringar</h2>
+      <p>Vi kan uppdatera policyn. Vid väsentliga ändringar informerar vi i appen. Den senaste versionen finns alltid här.</p>
 
       <footer>
         EkonomiEnkelt Norr AB · ekonomienkeltab@gmail.com
